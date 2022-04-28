@@ -6,9 +6,8 @@ Scraping bot built by using Scrapy framework that store the data into a SQLite d
 
 ## Run Locally
 Clone the project
-
 ```bash
-  git clone https://github.com/maxcohen31/Amazon-book-scraper.git
+  git clone https://github.com/maxcohen31/recipe-scraper.git
 ```
 ## Directory Structure
 ```bash
@@ -36,19 +35,18 @@ recipescraper
 ```
 ## Setup a virtual enviroment
 ```bash
-virtualenv amazonscraper ; source bin/activate
+virtualenv recipescraper ; source bin/activate
 pip install scrapy
 ```
 
 ## Go to the project directory
-
 ```bash
-  cd Amazon-book-scraper
-  cd amazonscraper/amazonscraper/spiders/
+  cd recipescraper
+  cd recipescraper/recipescraper/spiders/
 ```
 
 ## Run the crawler
 ```bash
-  python3 amazon_book_scraper.py
+  python3 recipe_scraper.py
 ```
   
