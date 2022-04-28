@@ -3,6 +3,7 @@ Scraper built by using Scrapy framework
 
 ## Description
 Scraping bot built by using Scrapy framework that store the data into a SQLite database.
+This process can be achieved by customizing the pipeline.py file.
 
 ## Run Locally
 Clone the project
@@ -49,4 +50,6 @@ pip install scrapy
 ```bash
   python3 recipe_scraper.py
 ```
-  
+ ## SQLite
+ <img src='recipescraper/recipescraper/SQLiteDB.png'/>
+ 
